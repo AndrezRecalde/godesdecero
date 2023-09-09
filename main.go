@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesdecero/iteraciones"
+	"godesdecero/ejercicios"
 )
 
 func main() {
@@ -30,5 +30,6 @@ func main() {
 	fmt.Println(numero, mensaje) */
 
 	/* teclado.IngresoNumeros() */
-	iteraciones.Iterar()
+	/* iteraciones.Iterar() */
+	ejercicios.Ejercicio02()
 }
