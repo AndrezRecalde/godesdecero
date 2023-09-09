@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesdecero/teclado"
+	"godesdecero/iteraciones"
 )
 
 func main() {
@@ -29,5 +29,6 @@ func main() {
 	/* numero, mensaje := ejercicios.Ejercicio01("sdggd")
 	fmt.Println(numero, mensaje) */
 
-	teclado.IngresoNumeros()
+	/* teclado.IngresoNumeros() */
+	iteraciones.Iterar()
 }
