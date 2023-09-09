@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-	/* "godesdecero/variables" */
-	"runtime"
+	"godesdecero/teclado"
 )
 
 func main() {
@@ -12,7 +10,7 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto) */
 
-	os := runtime.GOOS
+	/* os := runtime.GOOS
 	if os == "Linux." || os == "OS X." {
 		fmt.Println("No estas wn Windows")
 	} else {
@@ -26,5 +24,10 @@ func main() {
 		fmt.Println("Esto es Windows")
 	default:
 		fmt.Println("Este SO es: ", os)
-	}
+	} */
+
+	/* numero, mensaje := ejercicios.Ejercicio01("sdggd")
+	fmt.Println(numero, mensaje) */
+
+	teclado.IngresoNumeros()
 }
